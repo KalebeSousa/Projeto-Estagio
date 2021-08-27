@@ -1,0 +1,89 @@
+/* "." para CLASS */
+/* "#" para ID */
+
+header{
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    box-shadow: 0px 1.5px rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    align-items: center;
+}
+
+
+header > .search-container{
+    padding: 0 1rem;
+
+    background-color: #F4F4F4;
+    margin-left: 2rem;
+    height: 2.3rem;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+
+}
+header > .search-container > input{
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+div.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem ;
+}
+
+div.container > div.card ul{
+    list-style-type: none;
+}
+
+div.container > div.card ul li {
+    /* padding: 0.75rem; */
+    cursor:  pointer;
+    
+  }
+
+div.container > div.card ul li > h2 {
+    width: 100%;
+    position: relative;
+    padding: 1.25rem;
+    background-color: #fafafa;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #ddd;
+}
+
+span.icon {
+    position: absolute;
+    right: 1rem;
+    color: #ddd;
+}
+  
+div.container > div.card ul li > p {
+    padding: 1.25rem;
+    display: none;
+    transition: display 600ms;
+  }
+  
+
+
+
+
+/* botão whatsapp */
+a.button-container{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #01E675;
+    padding: 1rem;
+    border: 0;
+    border-radius: 50%;
+  }
+ 
+
+ 
